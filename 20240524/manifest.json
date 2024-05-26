@@ -1,13 +1,13 @@
 {
   "name": "XZG Firmware",
-  "version": "20240504",
+  "version": "20240524",
   "builds": [
     {
       "chipFamily": "ESP32",
       "improv": false,
       "parts": [
         {
-          "path": "https://raw.githubusercontent.com/mercenaruss/XZG/releases/20240504/XZG_20240504.full.bin",
+          "path": "https://raw.githubusercontent.com/mercenaruss/XZG/releases/20240524/XZG_20240524.full.bin",
           "offset": 0
         }
       ]
