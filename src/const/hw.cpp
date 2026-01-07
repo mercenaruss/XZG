@@ -21,6 +21,7 @@ ZbConfig zbConfigs[] = {
     {.txPin = 4, .rxPin = 36, .rstPin = 5, .bslPin = 16},   // 6 TubesZB-poe-2023
     {.txPin = 23, .rxPin = 22, .rstPin = 18, .bslPin = 19}, // 7 SLS-classic
     {.txPin = 33, .rxPin = 32, .rstPin = 15, .bslPin = 5},  // 8 SmartAll ZgbMix
+    {.txPin = 19, .rxPin = 23, .rstPin = 15, .bslPin = 22}, // 9 ZG-806Z
 };
 
 // Mist configurations
@@ -32,6 +33,7 @@ MistConfig mistConfigs[] = {
     {.btnPin = 33, .btnPlr = 1, .uartSelPin = -1, .uartSelPlr = 0, .ledModePin = -1, .ledModePlr = 0, .ledPwrPin = -1, .ledPwrPlr = 0}, // 3 SLS-classic
     {.btnPin = 14, .btnPlr = 1, .uartSelPin = -1, .uartSelPlr = 0, .ledModePin = -1, .ledModePlr = 0, .ledPwrPin = -1, .ledPwrPlr = 0}, // 4 T-Internet-POE
     {.btnPin = -1, .btnPlr = 0, .uartSelPin = -1, .uartSelPlr = 0, .ledModePin = -1, .ledModePlr = 0, .ledPwrPin = 13, .ledPwrPlr = 0}, // 5 SmartAll ZgbMix
+    {.btnPin = 27, .btnPlr = 1, .uartSelPin = -1, .uartSelPlr = 0, .ledModePin = 21, .ledModePlr = 0, .ledPwrPin = 2, .ledPwrPlr = 0},  // 6 ZG-806Z
 };
 
 // Board configurations
@@ -53,4 +55,5 @@ BrdConfigStruct brdConfigs[] = {
     {"HG POE Plus", 2, 0, 1},      // 13
     {"WGNETZG", 2, 0, 1},          // 14
     {"SmartAll ZgwMix", 3, 8, 5},     // 15
+    {"ZG-806Z", -1, 9, 6},         // 16
 };
