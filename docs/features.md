@@ -60,6 +60,7 @@ By focusing the community's efforts on enhancing one product, XZG aims to stream
 | HG POE Plus | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | WGNETZG | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | SmartAll ZgwMix | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| ZG-806Z | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: |
 
 * Some devices do not support all features
 
