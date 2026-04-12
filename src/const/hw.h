@@ -47,9 +47,9 @@ struct BrdConfigStruct
 };
 
 #define ETH_CFG_CNT 4
-#define ZB_CFG_CNT 9
-#define MIST_CFG_CNT 6
-#define BOARD_CFG_CNT 16
+#define ZB_CFG_CNT 10
+#define MIST_CFG_CNT 7
+#define BOARD_CFG_CNT 17
 
 struct ThisConfigStruct
 {
